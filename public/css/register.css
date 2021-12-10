@@ -1,0 +1,269 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    color: rgb(0, 0, 0);
+    font-family: "Roboto";
+    margin: auto;
+    background-color: rgb(223, 223, 223);
+    width: 100%;
+}
+
+header
+
+{
+    background: #EAC926;
+    width:100%;
+}
+
+header ul{
+
+    list-style: none;
+    margin: 0px;
+    margin-bottom: 1%;
+    padding: 0px;
+    font-size: 15px;  
+    display: none;
+}
+
+
+header li{
+    margin: 10px;
+    padding: 0px;
+
+}
+
+.banner{
+    margin: auto;
+}
+
+main{
+    width: 100%;
+}
+
+main section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main section article{
+    margin: 1% 2% 1% 2%;
+    width: 45%;
+}
+
+.navegacion{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} 
+
+
+footer{
+    font-size: 12px;
+    text-align: center;
+    background-color: white;
+    color: #666;
+}
+
+footer article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+p{
+    font-size: 12px;
+   
+}
+
+h2{
+    font-size: 24px;
+    text-align: left;
+    color: #666;
+    margin: 2vw;
+}
+
+h3{
+    font-size: 16px
+}
+
+h4{
+    font-size: 16px;
+    color: #666;
+    font-weight: lighter;
+}
+
+.precios{
+    font-size: 18px;
+}
+
+.descuentos{
+    font-size: 16px;
+    color: green;
+}
+
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    color: #39b54a;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    right: 20px;
+    top: -15px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+   }
+
+.burger-menu {
+        text-align: center;
+        background-color: #1259c3;
+        font-size: 40px;
+        color: white;
+        width: 15%; 
+        padding: 7px;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+
+    .foticons{
+        color: #1259c3;
+        font-size: 40px;
+    }
+
+
+  .articulo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+}  
+
+
+.boxarticulo {
+    padding: 15px;
+    border-top: 1px solid #ebebeb;
+    width: auto;
+}
+
+.imgmain{
+    width:100%;
+}
+
+ .logomlibre{
+    width: 50vw;
+} 
+
+.logo{
+    padding: 18px;
+    height: auto;
+    width: auto;
+    max-width: 230px;
+    max-height: 230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+a{
+color:black;
+}
+
+
+main{
+    background-color: #ebebeb;
+}
+
+form{
+    padding: 15px 20px;
+    max-width: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+form label{
+    padding: 10px 0;
+    display: block;
+}
+
+
+fieldset{
+    border-style: none;
+}
+
+input{
+    padding: 3px 0;
+}
+ul li{
+    display: flex;
+    align-items: center;
+    
+}
+ul input{
+    margin-right : 15px;
+}
+button {
+    font-size: 12px;
+    border-radius: 8px;
+    width: 20%;
+    margin-inline: 10px;
+}
+button input{
+    border: none;
+}
+
+footer{
+    text-align: center;
+    background-color: #ebebeb;
+    padding-top: 35px;
+   
+}
+
+
+
+
+@media (min-width: 760px) {
+        
+form{
+    margin-left: 25%;
+    margin-right: 20%;
+}
+    .camposvacios{
+        max-width: 400px;
+    }
+    button{
+        width: 70px;
+    }
+    
+}  
+
+@media (min-width: 1200px) {
+    
+    form{
+        margin-left: 35%;
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    
+    }
+   
+
+}

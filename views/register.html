@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register </title>
+    <link rel="stylesheet" href= "./css/styles.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+<link rel="stylesheet" href="/css/register.css">
+    
+</head>
+<body>
+    <header>
+        
+        <picture class="logomlibre">
+<img src= "/images/logo-mercado-liebre.svg"
+ class= "logo" /> 
+        </picture>
+
+<div>
+<p {display:inline}> Lugar para poner barra de búsqueda</p>
+
+<p {display:inline}> Comprá en cuotas y sin tarjeta de crédito <i class="fas fa-hand-holding-usd"></i></p>
+</div>
+
+<div class="navegacion">
+<div class="navegaciona">
+ <ul>
+    <li><a href="x">Ofertas</a></li>
+    <li><a href="x">Tiendas Oficiales</a></li>
+    <li><a href="x">Vender</a></li>
+    <li><a href="x">Ayuda</a></li>
+
+</ul>
+</div>
+
+<br>
+
+<div class= "navegacionb">
+<ul>
+    <li><a href= "/register">Creá tu cuenta<i class="far fa-id-card"></i></a></li>
+    <li><a href= "x">Ingresá <i class="fas fa-sign-in-alt"></i></a> </li>
+    <li><a href ="x">Mis Compras <i class="fas fa-shopping-basket"></i></a></li> 
+</ul>
+</div>
+</div>
+
+<div class="burger-menu">
+    <i class="fas fa-bars"></i>
+</div>
+
+
+
+
+    
+</header>
+
+<main>
+<form action= "/c" method= "POST">
+    <div>
+        <label>Nombre y Apellido</label>
+        <input type="text" name="nombre y apellido">
+    </div>
+
+    <div>
+        <label>Nombre de usuari@</label>
+        <input type="text" name= "nombre usuario">
+    </div>
+
+    <div>
+        <label>Fecha de nacimiento</label>
+        <input type="date" name="fecha" min="1900-01-01">
+    </div>
+
+    <div>
+        <label>Domicilio</label>
+        <input type="text" name="domicilio">
+    </div>
+
+    <div>
+        <label>Perfil del usuario</label>
+    </div>
+
+<section>
+    <div>
+        <label>Quiero comprar</label>
+        <input type="radio" name="perfil" value="Quiero comprar">
+    </div>
+    <div>
+        <label>Quiero vender</label>
+        <input type="radio" name="perfil" value="Quiero venderr">
+    </div>
+</section>
+
+<section>
+    <div>
+        <label>Intereses</label>
+    </div>
+    <div>
+        <label>Electro</label>
+        <input type="checkbox" name= "intereses" value="electro">
+    </div>
+    <div>
+        <label>Moda</label>
+        <input type="checkbox" name= "intereses" value="moda">
+    </div>
+    <div>
+        <label>Hogar</label>
+        <input type="checkbox" name= "intereses" value="hogar">
+    </div>
+    <div>
+        <label>Jugueteria</label>
+        <input type="checkbox" name= "intereses" value="jugueteria">
+    </div>
+    <div>
+        <label>Vida sana</label>
+        <input type="checkbox" name= "intereses" value="vidasana">
+    </div>
+</section>
+
+    <div>
+     <label>Foto de usuario</label>
+    </div>
+
+    <div>
+        <label>Seleccionar una imagen para el perfil:</label>
+        <input type="file" name="avatar" accept=".jpg">
+    </div>
+
+<section>
+    <div>
+        <label>Contraseña</label>
+        <input type="password" name="registro" value="contraseña">
+    </div>
+    <div> 
+        <label>Confirmar contraseña</label>
+        <input type="password" name="registro" value="confirmar contraseña">
+    </div>
+</section>
+
+<fieldset class="cajabotones">
+    <button class="botones"><input type="submit" value="Reset"></button>
+    <button class="botones"><input type="reset" value="Enviar"></button>
+    </fieldset>
+
+</form>
+</main>
